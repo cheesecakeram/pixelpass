@@ -1,5 +1,5 @@
 # pixelpass
-![image alt](https://github.com/cheesecakeram/pixelpass/blob/9781a952b61f760e8ac09e8429c4ee85fe464db2/screenshot1.png)
+![image alt]()
 
 use pixelpass at your own risk!
 
