@@ -1,24 +1,39 @@
-# pixelpass
-![image alt](https://github.com/cheesecakeram/pixelpass/blob/65e4453009cddcd0a9ed65440cb0674d3ee9e84d/screenshot1.png)
+# **pixelpass**
 
-use pixelpass at your own risk!
+pixelpass is a small, local password manager that saves your entries in a spreadsheet. It’s made to keep its files in its own application folder and work without an internet connection. Specially designed for CLI lovers.
 
-Features:
-  Generate passwords with customizable length, character types, excluded characters, and excluded words or sequences.
-  Generate passphrases with a chosen word count and separator.
-  Generate usernames.
-  Create, view, edit, and delete saved entries.
-  Run offline.
+---
+
+### What it can do
+
+  Save password data in a spreadsheet.
  
-Dependencies:
-  python3
-  openpyxl
+  Encrypt saved data with a master password using scrypt and AES-GCM.
 
-Files:
-  pixelpass - main folder, pixelpass.py - the script, vault.xlsx - your vault, settings.txt - stores vault file name. Script generates needed files itself.
-  
-Use:
-  Run pixelpass.py with Python and choose an action from the numbered menu. pixelpass asks for confirmation before saving, revealing, editing, or deleting entries.
+  Let you set, change, or remove the master password.
 
-Offline use:
-  pixelpass does not need an internet connection to run once its dependency is available. Staying offline can reduce exposure to network-based threats, which is a security benefit. It does not encrypt the vault or protect it from someone who can access the files, so keep the pixelpass folder somewhere secure.
+  Generate passwords and passphrases using an expanded word list.
+
+  Clear the terminal after an operation, if you enable that setting.
+
+  Create a launcher for your OS.
+
+---
+
+### Getting started
+
+pixelpass requires Python and the cryptography and openpyxl libraries.
+
+---
+
+### Master password and your data
+
+The master password encrypts saved data. If you forget it, you may not be able to recover your encrypted entries, so keep it somewhere safe. If you forget the master password, saved data may no longer be encrypted.
+
+The spreadsheet and other pixelpass files should be treated as sensitive. Anyone who can access unencrypted files may be able to read the saved data.
+
+---
+
+### Why use pixelpass?
+
+I don't know. 🥶
