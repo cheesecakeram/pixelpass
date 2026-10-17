@@ -3,6 +3,8 @@
 pixelpass is a small, local password manager that saves your entries in a spreadsheet. It’s made to keep its files in its own application folder and work without an internet connection. Specially designed for CLI lovers.
 
 ---
+![image](https://github.com/cheesecakeram/pixelpass/blob/32e80dbaca3cc3cd444b8b91e7f7239f4b6a4fdb/screenshot1.png)
+---
 
 ### What it can do
 
